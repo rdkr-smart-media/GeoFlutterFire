@@ -1,3 +1,22 @@
+## 3.0.1
+* BREAKING CHANGE: == and hashCode behaves differently in collection and == operations for GeoFirePoint fixes #162
+
+## 3.0.0-nullsafety.4
+* Updated example - add button for testing Stream, fixed minor issues.
+* Fixed unwrapping Object returned by Firestore
+
+
+## 3.0.0-nullsafety.3
+* Updated dependencies, https://github.com/DarshanGowda0/GeoFlutterFire/pull/158 (contributor https://github.com/xmany )
+
+## 3.0.0-nullsafety.2
+* Removes suspicious GeoFireCollectionRef.data(id) method. Resolves #113
+* Updated example
+
+## 3.0.0-nullsafety.1
+* Added null safety.
+* Updated example app
+
 ## 2.2.2
 * upgraded dependencies, latest before Flutter 2.0 and null safety
 
